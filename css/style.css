@@ -1,0 +1,83 @@
+body{
+    margin: auto;
+    width: 900px;
+}
+
+header {
+    margin: 30px;
+    width: 900px;
+}
+header img {
+    left: 50%;
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    right: 25%;
+
+}
+li {
+    padding: 35px;
+    margin: 20;
+    display: inline-block;
+    border: 100%;
+}
+
+
+main {
+    background-color:snow;
+}
+main>img{
+
+    display: block;
+    width: 100%;
+    margin: 30px;
+}
+
+main> section{
+   display:block;
+   margin: 30px;
+   width: 200%;
+}
+
+.feature_section{
+    display:inline-block;
+    margin: 30px;
+    width: 20%;
+    top: 110%;
+    right:50%;
+    position: absolute;
+   
+}
+.paragraph{
+    
+    display: inline-block;
+    padding: 0% 1% 10% 25%;
+    margin: 2% ;
+    border: 100%;
+    text-align: left;
+    overflow-y: scroll;
+} 
+section button:hover {
+    
+    padding:50px;
+    font-size: 15px;
+    position:absolute;
+    right:70% ;
+    top:270% ;
+}
+
+
+footer{
+    width: 900px;
+    text-align: center;
+    margin: 50px; 
+    padding: 5% 3% 2% 0%;  
+    background: #dddddd;
+}
+
+footer p{
+    font-size: 25px;
+}
